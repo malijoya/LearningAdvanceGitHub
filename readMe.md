@@ -35,4 +35,15 @@ Merge Conflict
 3. git add .
 4. git commit -m "Modify Readme by changing last lines"
 5. git push -u origin dev-malijoya
-6. 
+6. git pull => to see remote main branch commits
+7. git merge main => To merge your branch to the main branch
+8. git checkout dev-malijoya
+9. Alt + 0 => to see list of all merge conflicts 
+* After you resolve all the merge conflicts
+10. git add .
+11. git commit -m "resolve merge conflicts"
+12. git push
+
+Advanced Git
+git add .
+git commit -m "Added console.log in hello.js"
