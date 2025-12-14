@@ -52,9 +52,22 @@ git commit -m "Added console.log in hello.js"
 Git Reset
 Soft Reset
 git reset --soft (commit-Hash)
-// move to a specific commit in history but not delete, they are untracked
+// move to a specific commit in history but not deleting, they are untracked
 
 
 Hard Reset
 git reset --hard (commit-Hash) 
 //discard all changes in the working direction and working area. 
+
+git log
+git add .
+git commit -m "add revert console.log"
+git revert (commit-Hash)
+
+git revert --continue
+:qa!
+
+
+git stash
+
+
