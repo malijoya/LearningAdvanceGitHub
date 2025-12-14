@@ -69,5 +69,6 @@ git revert --continue
 
 
 git stash
+//To hide the code which you were working on and want to do later instead you want to work on the bug which created by someone else and you want to store your data somewhere
 
 
